@@ -30,7 +30,7 @@ research_interests =  ['Learning Methods, Transit Data, Modeling, Simulation']
 __Da Silva, D.__, Klumpenhouwer, W., Karner, A., Robinson, M., Liu, R., and Shalaby, A. (2022). Living on
 a Fare: Modeling and Quantifying the Effects of Fare Budgets on Accessibility and Equity. _Journal of Transport Geography_ 101, p. 103348.
 
-Klumpenhouwer, W., Allen, J., Li, L., Liu, R., Robinson, M., __Da Silva, D.__, Farber, S., Karner, A., Rowangould, D., Shalaby, A., Buchanan, M., and Higashide, S. (2021). A Comprehensive Transit Accessibility and Equity Dashboard. _Findings_ (July).
+Klumpenhouwer, W., Allen, J., Li, L., Liu, R., Robinson, M., __Da Silva, D.__, Farber, S., Karner, A., Rowangould, D., Shalaby, A., Buchanan, M., and Higashide, S. (2021). A Comprehensive Transit Accessibility and Equity Dashboard. _Findings_ (July). <https://dashboard.transitcenter.org/>
 
 ### __Peer-Reviewed Journal Publications Under Review__
 
