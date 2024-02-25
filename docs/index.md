@@ -25,25 +25,25 @@ research_interests =  ['Learning Methods, Transit Data, Modeling, Simulation']
 
 ## __Academic Contributions__
 
-### :newspaper: __Peer-Reviewed Journal Publications__
+### __Peer-Reviewed Journal Publications__
 
 __Da Silva, D.__, Klumpenhouwer, W., Karner, A., Robinson, M., Liu, R., and Shalaby, A. (2022). Living on
 a Fare: Modeling and Quantifying the Effects of Fare Budgets on Accessibility and Equity. _Journal of Transport Geography_ 101, p. 103348.
 
 Klumpenhouwer, W., Allen, J., Li, L., Liu, R., Robinson, M., __Da Silva, D.__, Farber, S., Karner, A., Rowangould, D., Shalaby, A., Buchanan, M., and Higashide, S. (2021). A Comprehensive Transit Accessibility and Equity Dashboard. _Findings_ (July).
 
-### :eyeglasses: __Peer-Reviewed Journal Publications Under Review__
+### __Peer-Reviewed Journal Publications Under Review__
 
 __Da Silva, D.__, Elsaid, F., Shalaby, A. Constructing Origin-Destination Matrix using Wi-Fi and AFC Data. _Transportation_ (Under Review).
 
 __Da Silva, D.__, Shalaby, A. Forecasting Short-Term Subway Passenger Flow Using Wi-Fi Data Comparative Analysis of Advanced Time-Series Methods. _Journal of Intelligent Transportation
 Systems_ (Under Review).
 
-### :fontawesome-solid-people-group: __Peer-Reviewed Conference Publications__
+### __Peer-Reviewed Conference Publications__
 
 Chen, R., Shalaby, A., __Da Silva, D.__ (2024). Trends in Toronto’s Subway Ridership Recovery: An Exploratory Analysis of Wi-Fi Records. In _Proceedings of the 103rd Transportation Research Board_. Washington, DC. 32 pages.
 
-### :material-presentation: __Peer-Reviewed Conference Presentations__
+### __Peer-Reviewed Conference Presentations__
 
 __Da Silva, D.__, Shalaby, A. (2024). Forecasting Short-Term Subway Passenger Flow Using Wi-Fi Data Comparative Analysis of Advanced Time-Series Methods. _103rd Annual Meeting of the Transportation Research Board_. Washington, DC.
 
@@ -56,6 +56,6 @@ __Da Silva, D.__, Elsaid, F., Shalaby, A. (2023). Constructing Origin-Destinatio
 
 __Da Silva, D.__, Robinson, M. Liu, R., Klumpenhouwer, W., Shalaby, A., and Karner, A. (2022). A Flexible Itinerary-Based Fare Calculator with Detailed Transfer Modeling. _101st Annual Meeting of the Transportation Research Board_. Washington, DC.
 
-### :material-clipboard-edit: __Conference Abstracts__
+### __Conference Abstracts__
 
 Klumpenhouwer, W., Allen, J., Li, L., Liu, R., Robinson, M., __Da Silva, D.__, Farber, S., Karner, A., Rowangould, D., Shalaby, A., Buchanan, M., and Higashide, S. (2021). Dashboarding Transit Accessibility _Canadian Urban Transit Association 2021 Virtual Conference_. Toronto, Canada.

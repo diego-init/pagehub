@@ -52,9 +52,9 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.mark
   - attr_list
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+#  - pymdownx.emoji:
+#      emoji_index: !!python/name:material.emoji.twemoji
+#      emoji_generator: !!python/name:materialx.emoji.to_svg
   - attr_list
   - md_in_html
 
