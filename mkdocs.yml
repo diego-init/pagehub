@@ -28,6 +28,7 @@ theme:
 
 plugins:
   - social
+  - glightbox
 
 extra:
   social:
@@ -54,6 +55,8 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+  - attr_list
+  - md_in_html
 
 copyright: |
   &copy; 2024 <a href="https://github.com/diego-init"  target="_blank" rel="noopener">Diego Da Silva</a>
