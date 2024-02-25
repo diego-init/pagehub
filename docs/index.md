@@ -7,7 +7,7 @@ import mini_bio
 
 current_status =  ['Postdoctoral Fellow @ University of Toronto']
 
-title = ['Ph.D. Computer Science - Federal University of ABC (Brazil)']
+title = ['Ph.D. in Computer Science - Federal University of ABC (Brazil)']
 
 # Fun Fact: The ABC region spans across three cities in the Sao Paulo Metropolitan Area:
 # Santo Andre, Sao Bernardo do Campo and Sao Caetano do Sul.
@@ -22,6 +22,8 @@ def bio():
 research_interests =  ['Learning Methods, Transit Data, Modeling, Simulation']
 
 ```
+
+[Download my CV](static/DIEGO_CV.pdf){:download="diego_silva_cv" .md-button}
 
 ## __Academic Contributions__
 
