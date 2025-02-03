@@ -8,6 +8,7 @@ categories:
 tags:
   - Foo
   - Bar
+draft: true
 
 comments: true
 ---

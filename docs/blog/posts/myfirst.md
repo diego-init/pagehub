@@ -6,9 +6,9 @@ authors:
 categories:
   - welcome
 tags:
-  - Foo
-  - Bar
-
+  - first
+  - welcome
+pin: true
 comments: true
 ---
 
