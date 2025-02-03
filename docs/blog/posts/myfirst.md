@@ -17,7 +17,8 @@ comments: true
 Hello and welcome!
 
 This blog is my space to share insights, ideas, and discussions on __Transit Data Analytics__. Whether you're a researcher, a professional in the public transport sector, or simply someone curious about how data can improve urban mobility, I hope you'll find valuable content here.
-What to Expect
+
+__What to Expect__
 
 I’ll be using this platform to:
 
