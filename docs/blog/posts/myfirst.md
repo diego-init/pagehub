@@ -31,7 +31,8 @@ I’ll be using this platform to:
 __Why This Matters__
 
 Public transport is the backbone of urban mobility, yet challenges such as congestion, delays, and service reliability persist. With the right data-driven approaches, we can design smarter, more efficient transit networks that benefit both operators and passengers. Through this blog, I aim to contribute to that mission by sharing knowledge and fostering discussions that drive meaningful improvements.
-Let’s Connect
+
+__Let’s Connect__
 
 I encourage you to share your thoughts, ask questions, and contribute to the conversation. Whether through comments, messages, or collaborations, I’d love to hear from you!
 
