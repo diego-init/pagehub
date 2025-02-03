@@ -1,6 +1,7 @@
 site_name: Diego Da Silva, Ph.D.
 theme:
   name: material
+#  custom_dir: overrides
   features:
     - navigation.tabs
     - navigation.sections
@@ -30,6 +31,8 @@ theme:
 plugins:
   - social
   - glightbox
+  - blog
+  - search
 
 extra:
   social:
@@ -53,11 +56,18 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.mark
   - attr_list
-#  - pymdownx.emoji:
-#      emoji_index: !!python/name:material.emoji.twemoji
-#      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - attr_list
   - md_in_html
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 copyright: |
   &copy; 2024 <a href="https://github.com/diego-init"  target="_blank" rel="noopener">Diego Da Silva</a>
