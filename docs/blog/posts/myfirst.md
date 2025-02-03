@@ -1,11 +1,10 @@
 ---
 title: "my first post"
-date: 2024-02-28
+date: 2025-02-03
 authors:
   - diego-init
 categories:
-  - Hello
-  - World
+  - welcome
 tags:
   - Foo
   - Bar
