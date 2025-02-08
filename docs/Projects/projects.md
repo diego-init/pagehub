@@ -8,9 +8,9 @@ Evaluating the application of an On-Demand Transit (ODT) planning and assessment
 
 ## **iCity 2.0**
 
-### University of Toronto
+### University of Toronto (2024)
 
-Leading the research delivery on Generative Design of Integrated Transportation Networks in the iCity 2.0 Project. This initiative aims to bring together academia, government, and industry to collaborate on Urban Data Science for Future Mobility. Our objective is to develop a new capability that employs generative design to discover the most effective surface transit service and network solutions, and identify optimal strategies for improving them in an Ontario case study. The Principal Investigator is Dr. Eric J. Miller. Ontario Research Fund: 4,000,000 CAD.
+Leading the research delivery on Generative Design of Integrated Transportation Networks in the iCity 2.0 Project. This initiative aims to bring together academia, government, and industry to collaborate on Urban Data Science for Future Mobility. Our objective is to develop a new capability that employs generative design to discover the most effective surface transit service and network solutions, and identify optimal strategies for improving them in an Ontario case study. The Principal Investigator is Dr. Eric J. Miller. Ontario Research Fund: 4M CAD.
 
 Link : <https://uttri.utoronto.ca/news/icity-2-0-urban-data-science-for-future-mobility-receives-funding-from-the-ontario-research-fund-research-excellence-round-10/>
 
