@@ -10,7 +10,7 @@ Evaluating the application of an On-Demand Transit (ODT) planning and assessment
 
 ### University of Toronto/Canada (2024)
 
-Leading the research delivery on Generative Design of Integrated Transportation Networks in the iCity 2.0 Project. This initiative aims to bring together academia, government, and industry to collaborate on Urban Data Science for Future Mobility. Our objective is to develop a new capability that employs generative design to discover the most effective surface transit service and network solutions, and identify optimal strategies for improving them in an Ontario case study. The Principal Investigator is Dr. Eric J. Miller. Ontario Research Fund: 4M CAD.
+Leading the research delivery on Generative Design of Integrated Transportation Networks in the iCity 2.0 Project. This initiative aims to bring together academia, government, and industry to collaborate on Urban Data Science for Future Mobility. Our objective is to develop a new capability that employs generative design to discover the most effective surface transit service and network solutions, and identify optimal strategies for improving them in an Ontario case study. The Principal Investigator is Dr. Eric J. Miller. Ontario Research Fund: $4M CAD.
 
 Link : <https://uttri.utoronto.ca/news/icity-2-0-urban-data-science-for-future-mobility-receives-funding-from-the-ontario-research-fund-research-excellence-round-10/>
 
@@ -39,7 +39,7 @@ Link: <https://publications.iadb.org/publications/english/document/Big-Data-for-
 
 ## **Transit Equity Dashboard**
 
-### Transit Center/ USA (2021)
+### TransitCenter/ USA (2021)
 
 Contributed to a $100K USD project led by Prof. Alex Karner, focusing on comprehensive transit access and equity analysis across seven U.S. major urban areas. Led the technical development and created a Python-based Fare Calculator system, a key component of the transit access score calculation, to support equity-focused transit planning.
 
