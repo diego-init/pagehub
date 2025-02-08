@@ -4,7 +4,7 @@
 
 Hello and welcome!
 
-This blog is my space to share insights, ideas, and discussions on Transit Data Analytics. Whether you're a researcher, a professional in the public transport sector, or simply someone curious about how data can improve urban mobility, I hope you'll find valuable content here.
+This repo is my space to share insights, ideas, and discussions on Transit Data Analytics. Whether you're a researcher, a professional in the public transport sector, or simply someone curious about how data can improve urban mobility, I hope you'll find valuable content here.
 
 What to Expect
 
