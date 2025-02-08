@@ -20,7 +20,7 @@ By the end of this course, students will:
 
 ### Course Schedule
 
-| Week #    | Contents | Tasks    |
+| Week #    | Lectures + Lab | Tasks    |
 | -------- | ------- | -------  |
 | 1  | Course introduction, transit data, building the toolbox,exploratory data analysis    | Assignment 1 released    |
 | 2 | Reliability analysis, origin-destination demand estimation     | Project start    |
