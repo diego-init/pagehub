@@ -1,74 +1,24 @@
-# __Welcome to my page__
+# __Projects__
 
-![Image title](img/me_myself.jpg){ align=left width="200"}
+## Transit Network Redesign
 
-```py linenums="1" hl_lines="3 5 13 14 15 16" title="Diego Da Silva, Ph.D" 
-import mini_bio
+Supporting strategic technical decision-making in Intelligent Transport Systems and advanced data analysis. Responsibilities include updating and restructuring the metropolitan network modeling and public passenger transport systems for the Porto Alegre Metropolitan Region. A key goal is to develop a comprehensive bid for implementing these technological improvements. This $1M USD project is led by Principal Investigator Dr. Ciro Biderman under Contract SECON Nº 22343/2023.
 
-current_status =  ['Postdoctoral Fellow @ University of Toronto']
+## Automated Fare Collection and ABT System Design
 
-title = ['Ph.D. in Computer Science - Federal University of ABC (Brazil)']
+Designed the technical and functional architecture for transitioning from a closed-loop to an open-loop payment system with Account-Based Ticketing (ABT) services for EPTC in Porto Alegre, Brazil. This $390K USD project, led by Principal Investigator Dr. Ciro Biderman under Contract SECON Nº 82352/2023, aimed to modernize fare collection systems and enhance passenger experience.
 
-# Fun Fact: The ABC region spans across three cities in the Sao Paulo Metropolitan Area:
-# Santo Andre, Sao Bernardo do Campo and Sao Caetano do Sul.
-# The initial of each name forms the acronym ABC.
+Link: <https://dopaonlineupload.procempa.com.br/dopaonlineupload/4726_ce_20230328_executivo.pdf>
 
-def bio():
-    
-    '''My research connects transit and computational methods to create fair, 
-    reliable, and efficient urban mobility. Additionally, I am a Brazilian Jiu-Jitsu 
-    black belt and former UofT Grappling Club instructor. 
-    I take paper submission seriously.'''
+## Big Data for Sustainable Urban Development
 
-research_interests =  ['Learning Methods, Transit Data, Modeling, Simulation']
+Collaborated with the Getulio Vargas Foundation (FGV-Brazil), Inter-American Development Bank (IDB), and Waze to develop a city-to-street-level congestion indicator. Designed and implemented a real-time traﬃc monitoring dashboard for São Paulo (Brazil), Montevideo (Uruguay), Quito (Ecuador), Xalapa (Mexico), and Miraﬂores (Peru). This initiative was part of the "Big Data for Sustainable Urban Development" project, led by Principal Investigator Dr. Ciro Biderman, to
+enhance urban mobility and decision-making through advanced data analytics.
 
-```
+Link: <https://publications.iadb.org/publications/english/document/Big-Data-for-Sustainable-Urban-Developement.pdf>
 
-[Download my CV](static/DIEGO_CV.pdf){:download="diego_silva_cv" .md-button}
+## TransitCenter Equity Dashboard
 
-## __Academic Contributions__
+Contributed to a $100K USD project led by Prof. Alex Karner, focusing on comprehensive transit access and equity analysis across seven U.S. major urban areas. Led the technical development and created a Python-based Fare Calculator system, a key component of the transit access score calculation, to support equity-focused transit planning.
 
-### __Peer-Reviewed Journal Publications__
-
-__Da Silva, D.__, Klumpenhouwer, W., Karner, A., Robinson, M., Liu, R., and Shalaby, A. (2022). Living on
-a Fare: Modeling and Quantifying the Effects of Fare Budgets on Accessibility and Equity. _Journal of Transport Geography_ 101, p. 103348.
-
-Klumpenhouwer, W., Allen, J., Li, L., Liu, R., Robinson, M., __Da Silva, D.__, Farber, S., Karner, A., Rowangould, D., Shalaby, A., Buchanan, M., and Higashide, S. (2021). A Comprehensive Transit Accessibility and Equity Dashboard. _Findings_ (July). <https://dashboard.transitcenter.org/>
-
-Chen, R., Shalaby, A., and  __Da Silva, D.__, (2024). Trends in Toronto’s Subway Ridership Recovery: An Exploratory Analysis of Wi-Fi Records. Transportation Research Record, 0(0). https://doi.org/10.1177/03611981241242775
-
-__Da Silva, D.__, Shalaby, A. Forecasting Short-Term Subway Passenger Flow Using Wi-Fi Data Comparative Analysis of Advanced Time-Series Methods. _Journal of Intelligent Transportation
-Systems_ (Under Review).
-
-Othman, K., Ahmed, S., __Da Silva, D.__, Shalaby, A., Abdulhai, B. (2024). Decision Support Tools for Effective Bus Fleet Electrification: Replacement Factors and Fleet Sizing Prediction. _Transportation Research Interdisciplinary Perspectives_.
-
-Othman, K., __Da Silva, D.__, Shalaby, A., Abdulhai, B. (2024). Interpretable Machine Learning Models for Predicting Ebus Battery Consumption Rates in Cold Climates with and without Auxiliary Heating. _Green Energy and Intelligent Transportation._
-
-### __Peer-Reviewed Journal Publications Under Review__
-
-__Da Silva, D.__, Elsaid, F., Shalaby, A. Constructing Origin-Destination Matrix using Wi-Fi and AFC Data. _Transportation_ (Under Review).
-
-### __Peer-Reviewed Conference Publications__
-
-Chen, R., Shalaby, A., __Da Silva, D.__ (2024). Trends in Toronto’s Subway Ridership Recovery: An Exploratory Analysis of Wi-Fi Records. In _Proceedings of the 103rd Transportation Research Board_. Washington, DC. 32 pages.
-
-### __Peer-Reviewed Conference Presentations__
-
-__Da Silva, D.__, Shalaby, A. (2024). Forecasting Short-Term Subway Passenger Flow Using Wi-Fi Data Comparative Analysis of Advanced Time-Series Methods. _103rd Annual Meeting of the Transportation Research Board_. Washington, DC.
-
-Othman, K.,__Da Silva, D.__, Shalaby, A., Abdulhai, B. (2024). Data-Driven Prediction of e-Bus Battery Consumption Rates Using Machine Learning Techniques in the Canadian Environment. _103rd
-Annual Meeting of the Transportation Research Board_. Washington, DC.
-
-R Chen, A Shalaby, __Da Silva, D.__ (2024). Trends in Toronto’s Subway Ridership Recovery: An Exploratory Analysis of Wi-Fi Records. _103rd Annual Meeting of the Transportation Research Board_. Washington, DC.
-
-__Da Silva, D.__, Elsaid, F., Shalaby, A. (2023). Constructing Origin-Destination Demand Matrix Using Wi-Fi and Automated Fare Collection Gate Count Data: A Case Study of Toronto’s Subway Network. _102nd Annual Meeting of the Transportation Research Board_. Washington, DC.
-
-__Da Silva, D.__, Robinson, M. Liu, R., Klumpenhouwer, W., Shalaby, A., and Karner, A. (2022). A Flexible Itinerary-Based Fare Calculator with Detailed Transfer Modeling. _101st Annual Meeting of the Transportation Research Board_. Washington, DC.
-
-### __Conference Abstracts__
-
-Klumpenhouwer, W., Allen, J., Li, L., Liu, R., Robinson, M., __Da Silva, D.__, Farber, S., Karner, A., Rowangould, D., Shalaby, A., Buchanan, M., and Higashide, S. (2021). Dashboarding Transit Accessibility _Canadian Urban Transit Association 2021 Virtual Conference_. Toronto, Canada.
-
-__Da Silva, D.__, Elsaid, F., Shalaby, A. (2023). Constructing Origin-Destination Demand Matrix Using Wi-Fi and Automated Fare Collection Gate Count Data. 25th Ontario Transportation Expo - Conference and Trade Show. Toronto, Canada.
-
-Othman, K., __Da Silva, D.__, Shalaby, A., Abdulhai, B. (2024). Data-Driven Prediction of e-Bus Battery Consumption Rates. 25th Ontario Transportation Expo - Conference and Trade Show. Toronto, Canada.
+Link: <https://dashboard.transitcenter.org/>
