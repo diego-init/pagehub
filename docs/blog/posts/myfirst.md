@@ -9,6 +9,8 @@ tags:
   - first
   - welcome
 pin: true
+draft: true
+
 comments: true
 ---
 
