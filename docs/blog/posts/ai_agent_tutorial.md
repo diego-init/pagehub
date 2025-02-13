@@ -1,10 +1,10 @@
 ---
-title: "AI Agents"
+title: "Getting Started with AI Agents"
 date: 2025-02-13
 authors:
   - diego-init
 categories:
-  - agent
+  - AI Agents
 tags:
   - AI
   - agents
