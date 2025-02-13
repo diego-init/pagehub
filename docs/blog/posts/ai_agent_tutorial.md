@@ -15,6 +15,13 @@ comments: true
 
 # Getting Started with AI Agents
 
+It's hard to have a conversation about AI these days without bringing up tools like ChatGPT, DeepSeek, and the like, right? These tools are becoming key players in how we analyze and interact with public transport. Are you ready for this shift?
+
+In this post, let's chat a bit about AI Agents and how we can tailor LLMs to answer the questions that matter most to us as Transit Data Scientists.
+
+Before diving into more complex applications, let’s take a moment to introduce the topic. This way, we can get comfortable with the terms and concepts we'll be working with!
+
+This tutorial is inspired by the fantastic course put together by [HuggingFace](https://huggingface.co/learn/agents-course/unit0/introduction)!
 
 
 ## What’s an AI Agent, Anyway?
@@ -185,3 +192,5 @@ This makes it easy for AI Agents to recognize and use tools based on text input.
 - **Tools** help AI Agents fetch real-time data and execute tasks.
 
 By combining all these pieces, you can build smart AI Agents that think, act, and assist like pros!
+
+In the next tutorial we will discuss the AI ​​Agents workflow.
