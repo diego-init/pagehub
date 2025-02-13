@@ -134,7 +134,22 @@ Instead of writing descriptions manually, we can use Python introspection to ext
 
 ```python
 class Tool:
-    def __init__(self, name: str, description: str, func: callable, arguments: list, outputs: str):
+    """
+    A class representing a reusable piece of code (Tool).
+    
+    Attributes:
+        name (str): Name of the tool.
+        description (str): A textual description of what the tool does.
+        func (callable): The function this tool wraps.
+        arguments (list): A list of argument.
+        outputs (str or list): The return type(s) of the wrapped function.
+    """
+    def __init__(self, 
+                 name: str, 
+                 description: str, 
+                 func: callable, 
+                 arguments: list,
+                 outputs: str):
         self.name = name
         self.description = description
         self.func = func
@@ -142,10 +157,25 @@ class Tool:
         self.outputs = outputs
 
     def to_string(self) -> str:
-        args_str = ", ".join([f"{arg_name}: {arg_type}" for arg_name, arg_type in self.arguments])
-        return f"Tool Name: {self.name}, Description: {self.description}, Arguments: {args_str}, Outputs: {self.outputs}"
+        """
+        Return a string representation of the tool, 
+        including its name, description, arguments, and outputs.
+        """
+        args_str = ", ".join([
+            f"{arg_name}: {arg_type}" for arg_name, arg_type in self.arguments
+        ])
+        
+        return (
+            f"Tool Name: {self.name},"
+            f" Description: {self.description},"
+            f" Arguments: {args_str},"
+            f" Outputs: {self.outputs}"
+        )
 
     def __call__(self, *args, **kwargs):
+        """
+        Invoke the underlying function (callable) with provided arguments.
+        """
         return self.func(*args, **kwargs)
 ```
 
@@ -153,7 +183,11 @@ Now, we can create a tool instance:
 
 ```python
 calculator_tool = Tool(
-    "calculator", "Multiplies two numbers.", calculator, [("a", "int"), ("b", "int")], "int"
+    "calculator",                   # name
+    "Multiply two integers.",       # description
+    calculator,                     # function to call
+    [("a", "int"), ("b", "int")],   # inputs (names and types)
+    "int",                          # output
 )
 ```
 
@@ -162,13 +196,48 @@ calculator_tool = Tool(
 A decorator makes tool creation easier:
 
 ```python
-import inspect
-
 def tool(func):
+    """
+    A decorator that creates a Tool instance from the given function.
+    """
+    # Get the function signature
     signature = inspect.signature(func)
-    arguments = [(param.name, param.annotation.__name__) for param in signature.parameters.values()]
-    return_annotation = signature.return_annotation.__name__ if signature.return_annotation else "No return annotation"
-    return Tool(func.__name__, func.__doc__ or "No description provided.", func, arguments, return_annotation)
+    
+    # Extract (param_name, param_annotation) pairs for inputs
+    arguments = []
+    for param in signature.parameters.values():
+        annotation_name = (
+            param.annotation.__name__ 
+            if hasattr(param.annotation, '__name__') 
+            else str(param.annotation)
+        )
+        arguments.append((param.name, annotation_name))
+    
+    # Determine the return annotation
+    return_annotation = signature.return_annotation
+    if return_annotation is inspect._empty:
+        outputs = "No return annotation"
+    else:
+        outputs = (
+            return_annotation.__name__ 
+            if hasattr(return_annotation, '__name__') 
+            else str(return_annotation)
+        )
+    
+    # Use the function's docstring as the description (default if None)
+    description = func.__doc__ or "No description provided."
+    
+    # The function name becomes the Tool name
+    name = func.__name__
+    
+    # Return a new Tool instance
+    return Tool(
+        name=name, 
+        description=description, 
+        func=func, 
+        arguments=arguments, 
+        outputs=outputs
+    )
 ```
 
 Now, we can define tools like this:
@@ -176,8 +245,10 @@ Now, we can define tools like this:
 ```python
 @tool
 def calculator(a: int, b: int) -> int:
-    """Multiply two numbers."""
+    """Multiply two integers."""
     return a * b
+
+print(calculator.to_string())
 ```
 
 This makes it easy for AI Agents to recognize and use tools based on text input.
