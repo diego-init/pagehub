@@ -1,5 +1,5 @@
 ---
-title: "teste"
+title: "AI Agents"
 date: 2025-02-13
 authors:
   - diego-init
@@ -10,8 +10,6 @@ tags:
   - agents
   - LLM
   - automation
-draft: true
-
 comments: true
 ---
 
