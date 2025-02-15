@@ -23,4 +23,4 @@ This tutorial is inspired by [HuggingFace](https://huggingface.co/learn/agents-c
 
 ##  The Thought-Action-Observation Cycle
 
-![alt text](image.png)
+![alt text](img/image.png){align=center width="400"}
