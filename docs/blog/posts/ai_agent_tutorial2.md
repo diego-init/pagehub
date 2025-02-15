@@ -23,13 +23,4 @@ This tutorial is inspired by [HuggingFace](https://huggingface.co/learn/agents-c
 
 ##  The Thought-Action-Observation Cycle
 
-```mermaid
-st=>start: Start
-op=>operation: Your Operation
-cond=>condition: Yes or No?
-e=>end
-
-st->op->cond
-cond(yes)->e
-cond(no)->op
-```
+![alt text](image.png)
