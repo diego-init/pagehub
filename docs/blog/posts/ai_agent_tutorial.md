@@ -13,7 +13,7 @@ tags:
 comments: true
 ---
 
-# Getting Started with AI Agents
+# Getting Started with AI Agents - Part I
 
 It's hard to have a conversation about AI these days without bringing up tools like ChatGPT, DeepSeek, and the like, right? These tools are becoming key players in how we analyze and interact with public transport. Are you ready for this shift?
 
