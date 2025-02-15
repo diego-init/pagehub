@@ -1,6 +1,6 @@
 ---
-title: "Getting Started with AI Agents"
-date: 2025-02-13
+title: "Getting Started with AI Agents Part II"
+date: 2025-02-15
 authors:
   - diego-init
 categories:
