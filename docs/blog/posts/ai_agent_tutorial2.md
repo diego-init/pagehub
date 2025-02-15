@@ -23,7 +23,7 @@ This tutorial is inspired by [HuggingFace](https://huggingface.co/learn/agents-c
 
 ##  The Thought-Action-Observation Cycle
 
-```flow
+```mermaid
 st=>start: Start
 op=>operation: Your Operation
 cond=>condition: Yes or No?
