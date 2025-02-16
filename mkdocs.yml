@@ -33,6 +33,7 @@ plugins:
   - glightbox
   - blog:
       categories_sort_reverse: true
+      categories_toc: true
   - search
 
 extra:
