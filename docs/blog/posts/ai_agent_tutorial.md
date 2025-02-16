@@ -21,8 +21,7 @@ In this post, let's chat a bit about AI Agents and how we can tailor LLMs to ans
 
 Before diving into more complex applications, let’s take a moment to introduce the topic. This way, we can get comfortable with the terms and concepts we'll be working with!
 
-This tutorial is inspired by the fantastic course put together by [HuggingFace](https://huggingface.co/learn/agents-course/unit0/introduction)!
-
+This tutorial is a summmary of [HuggingFace](https://huggingface.co/learn/agents-course/unit0/introduction) Course on Agents - Unit 1.
 
 ## What’s an AI Agent, Anyway?
 
