@@ -34,6 +34,9 @@ plugins:
   - blog:
       categories_sort_reverse: true
       categories_toc: true
+      pagination_per_page: 5
+      pagination_url_format: "page/{page}"
+      
   - search
 
 extra:
