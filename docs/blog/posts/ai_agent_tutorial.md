@@ -264,3 +264,13 @@ This makes it easy for AI Agents to recognize and use tools based on text input.
 By combining all these pieces, you can build smart AI Agents that think, act, and assist like pros!
 
 In the next tutorial we will discuss the AI ​​Agents workflow.
+
+
+``` mermaid
+graph LR
+  A[Start] --> B{Error?};
+  B -->|Yes| C[Hmm...];
+  C --> D[Debug];
+  D --> B;
+  B ---->|No| E[Yay!];
+```
