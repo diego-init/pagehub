@@ -31,7 +31,8 @@ theme:
 plugins:
   - social
   - glightbox
-  - blog
+  - blog:
+      categories_sort_reverse: true
   - search
 
 extra:
