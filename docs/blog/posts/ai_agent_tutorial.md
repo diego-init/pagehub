@@ -272,5 +272,5 @@ graph LR
   B -->|Yes| C[Hmm...];
   C --> D[Debug];
   D --> B;
-  B ---->|No| E[Yay!];
+  B ---->|No| E[Yay Dieo!];
 ```
