@@ -15,7 +15,7 @@ comments: true
 
 # Getting Started with AI Agents - Part II
 
-In previous sections, we learned how tools are provided to agents in the system prompt and how AI agents can reason, plan, and interact with their environment.
+We learned how tools are provided to agents in the system prompt and how AI agents can reason, plan, and interact with their environment.
 
 Now, we'll examine the AI Agent Workflow, known as Thought-Action-Observation.
 
@@ -162,6 +162,6 @@ This process of using feedback helps the agent stay on track with its goals. It 
 4. **Response Analysis:** Responses from APIs, query results, or outputs from computations.
 5. **Time-based Events:** Completion of scheduled tasks or milestones reached, such as deadlines.
 
-Comments: 
+#### Comments 
 
 Both tutorials may seem technical, but they offer an overview of understanding the potential of AI agents. In the next blog post, we will discuss an implementation in public transit.
