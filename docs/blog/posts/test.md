@@ -6,7 +6,7 @@ authors:
 categories:
   - welcome
 tags:
-  - Foo
+  - Fooi
   - Bar
 draft: true
 
@@ -41,7 +41,7 @@ You have two main options:
 
 LLMs are a key component of AI Agents, providing the foundation for understanding and generating human language.
 
-##  System Messages: The Underlying System of LLMs
+## System Messages: The Underlying System of LLMs
 
 System messages (also called System Prompts) define how the model should behave. They serve as persistent instructions, guiding every subsequent interaction.
 
@@ -53,6 +53,7 @@ system_message = {
     "content": "You are a professional customer service agent. Always be polite, clear, and helpful."
 }
 ```
+
 When using Agents, the System Message also gives information about the available tools, provides instructions to the model on how to format the actions to take, and includes guidelines on how the thought process should be segmented.
 
 ## Conversations: User and Assistant Messages
@@ -115,18 +116,18 @@ rendered_prompt = tokenizer.apply_chat_template(messages, tokenize=False, add_ge
 
 This <code>apply_chat_template()</code> function will be used in the backend of your API, when you interact with messages in the ChatML format.
 
-#  What are Tools?
+# What are Tools?
 
 One crucial aspect of AI Agents is their ability to take actions. As we saw, this happens through the use of Tools.
 
 A Tool is a function given to the LLM. This function should fulfill a clear objective.
 
-|Tool 	|Description|
-| -------- | ------- |
-|Web Search 	|Allows the agent to fetch up-to-date information from the internet.|
-|Image Generation 	|Creates images based on text descriptions.|
-|Retrieval 	|Retrieves information from an external source.|
-|API Interface 	|Interacts with an external API (GitHub, YouTube, Spotify, etc.).|
+| Tool             | Description                                                         |
+| ---------------- | ------------------------------------------------------------------- |
+| Web Search       | Allows the agent to fetch up-to-date information from the internet. |
+| Image Generation | Creates images based on text descriptions.                          |
+| Retrieval        | Retrieves information from an external source.                      |
+| API Interface    | Interacts with an external API (GitHub, YouTube, Spotify, etc.).    |
 
 A good tool should be something that complements the power of an LLM.
 
@@ -198,13 +199,13 @@ Tool Name: calculator, Description: Multiply two integers., Arguments: a: int, b
 
 As you can see, it’s the same thing we wrote manually before!
 
-##  Generic Tool implementation
+## Generic Tool implementation
 
 ```python
 class Tool:
     """
     A class representing a reusable piece of code (Tool).
-    
+
     Attributes:
         name (str): Name of the tool.
         description (str): A textual description of what the tool does.
@@ -232,7 +233,7 @@ class Tool:
         args_str = ", ".join([
             f"{arg_name}: {arg_type}" for arg_name, arg_type in self.arguments
         ])
-        
+
         return (
             f"Tool Name: {self.name},"
             f" Description: {self.description},"
@@ -278,7 +279,7 @@ def tool(func):
     """
     # Get the function signature
     signature = inspect.signature(func)
-    
+
     # Extract (param_name, param_annotation) pairs for inputs
     arguments = []
     for param in signature.parameters.values():
@@ -288,7 +289,7 @@ def tool(func):
             else str(param.annotation)
         )
         arguments.append((param.name, annotation_name))
-    
+
     # Determine the return annotation
     return_annotation = signature.return_annotation
     if return_annotation is inspect._empty:
@@ -299,13 +300,13 @@ def tool(func):
             if hasattr(return_annotation, '__name__') 
             else str(return_annotation)
         )
-    
+
     # Use the function's docstring as the description (default if None)
     description = func.__doc__ or "No description provided."
-    
+
     # The function name becomes the Tool name
     name = func.__name__
-    
+
     # Return a new Tool instance
     return Tool(
         name=name, 
