@@ -48,7 +48,7 @@ Klumpenhouwer, W., Allen, J., Li, L., Liu, R., Robinson, M., __Da Silva, D.__, F
 
 ### __Peer-Reviewed Journal Publications Under Review__
 
-Camargo, R. Y.,__Da Silva, D.__, Shalaby, A. Fleet-Capacity-Aware Dynamic Interlining for Robust Terminal Headway Operations. \textit{IEEE (Under Review).}
+Camargo, R. Y.,__Da Silva, D.__, Shalaby, A. Fleet-Capacity-Aware Dynamic Interlining for Robust Terminal Headway Operations. _IEEE_ (Under Review).}
 
 __Da Silva, D.__, Elsaid, F., Shalaby, A. Constructing Origin-Destination Matrix using Wi-Fi and AFC Data. _Transportation_ (Under Review).
 
